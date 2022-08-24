@@ -1,9 +1,10 @@
 package model;
 
 import model.interfaces.IAnimal;
+import model.interfaces.IHunt;
 import model.interfaces.ISwim;
 import model.interfaces.IPrey;
-public class Seal implements IAnimal, ISwim, IPrey {
+public class Seal implements IHunt, IAnimal, ISwim, IPrey {
 
     @Override
     public void eat() {

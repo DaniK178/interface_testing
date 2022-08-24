@@ -28,6 +28,6 @@ public class Puffin implements IAnimal, IFly, ISwim, IPrey {
 
     @Override
     public void flee() {
-        System.out.println("Puffin is fleeing from preditor");
+        System.out.println("Puffin is fleeing from predator");
     }
 }
