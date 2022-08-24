@@ -1,6 +1,8 @@
 package model;
 
+import model.interfaces.IAnimal;
 import model.interfaces.IFly;
+import model.interfaces.IPrey;
 import model.interfaces.ISwim;
 
 public class Puffin implements IAnimal, IFly, ISwim, IPrey {
