@@ -1,11 +1,8 @@
 package model;
 
-import model.interfaces.IAnimal;
-import model.interfaces.IFly;
-import model.interfaces.IPrey;
-import model.interfaces.ISwim;
+import model.interfaces.*;
 
-public class Puffin implements IAnimal, IFly, ISwim, IPrey {
+public class Puffin implements IAnimal, IFly, ISwim, IPrey, IHunt {
     @Override
     public void eat() {
         System.out.println("Puffin is eating");
